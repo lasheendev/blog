@@ -1,13 +1,13 @@
 ---
-title: "Beautifull Github Profile Readme"
+title: "Beautiful GitHub Profile Readme"
 date: 2023-02-19
-description: "How to make your github profile more beautiful"
+description: "How to make your GitHub profile more beautiful"
 draft: false
 ---
 
-There are different ways to make your github profile more beautiful. You can add badges, icons, stats, etc. to your github profile readme. In this article, I will show you how to do that. 
+There are different ways to make your GitHub profile more beautiful. You can add badges, icons, stats, etc. to your GitHub profile readme. In this article, I will show you how to do that. 
 
-You can use these awesome generators to automatically generate your github profile readme if you can't be bothered to do it yourself. check the [Profile Generator Section](#profile-generator) below.
+You can use these awesome generators to automatically generate your GitHub profile readme if you can't be bothered to do it yourself. check the [Profile Generator Section](#profile-generator) below.
 
 If you want to do it manually, you can follow the steps below.
 
@@ -24,7 +24,7 @@ Concise, consistent, and legible badges in SVG and raster format and Make tokens
 ![](https://img.shields.io/github/stars/yousseflasheen?style=for-the-badge)
 ```
 
-Also check out [here](https://github.com/Envoy-VC/awesome-badges), [here](https://github.com/Naereen/badges), or [here](https://github.com/Ileriayo/markdown-badges) for more shield.io badges' examples.
+Also check out [here](https://github.com/Envoy-VC/awesome-badges), [here](https://github.com/Naereen/badges), or [here](https://github.com/Ileriayo/markdown-badges) for more shield.io badges examples.
 
 
 
@@ -43,7 +43,7 @@ Display your stats with this unique StackOverflow Badge
 
 ### [YouTube Stats](https://github.com/DenverCoder1/github-readme-youtube-stats)
 
-Youtube stats badges for your Github profile README. Displays the total number of subscribers or the view count for your channel.
+Youtube stats badges for your GitHub profile README. Displays the total number of subscribers or the view count for your channel.
 
 This one requires an API key from Google Cloud Platform. You can get one [here](https://console.cloud.google.com/apis/credentials)
 
@@ -78,7 +78,6 @@ Or
 ```
 
 ###  Package Versions
-
 #### [pepy](https://github.com/psincraian/pepy)
 
 [![Downloads](https://pepy.tech/badge/django-audio-validator)](https://pepy.tech/project/django-audio-validator)
@@ -117,10 +116,9 @@ Once the package owner adds this badge to their README file, it will inform and 
 ### [Todoist Readme](https://github.com/abhisheknaiidu/todoist-readme)
 
 Updates README with Todoist Stats of a user
-
 ### [github readme stats](https://github.com/anuraghazra/github-readme-stats)
 
-Dynamically generated stats for your github readmes
+Dynamically generated stats for your GitHub readmes
 
 
 
@@ -136,33 +134,27 @@ Stay motivated and show off your contribution streak! 🌟 Display your total co
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
 
-```html
+```markdown
 [![GitHub Streak](https://streak-stats.demolab.com/?user=DenverCoder1&theme=dark)](https://git.io/streak-stats)
 ```
 
 ### [waka readme](https://github.com/athul/waka-readme)
 
 Wakatime Weekly Metrics on your Profile Readme. This one requires an API key from Wakatime. You can get one [here](https://wakatime.com/settings/account)
-
 [![wakatime](https://wakatime.com/badge/user/8e8b5b0c-8b1a-4b0e-9c1c-8c8c2c5c2c5c.svg)](https://wakatime.com/@8e8b5b0c-8b1a-4b0e-9c1c-8c8c2c5c2c5c)
 
-```html
+```markdown
 [![wakatime](https://wakatime.com/badge/user/8e8b5b0c-8b1a-4b0e-9c1c-8c8c2c5c2c5c.svg)](https://wakatime.com/@8e8b5b0c-8b1a-4b0e-9c1c-8c8c2c5c2c5c)
 ```
-
-
-
-
-
 
 ### [Github Activity Readme](https://github.com/jamesgeorge007/github-activity-readme)
 
 Updates README with the recent GitHub activity of a user
 
 
-###  [Spotify Github Profile](https://github.com/kittinan/spotify-github-profile)
+###  [Spotify GitHub Profile](https://github.com/kittinan/spotify-github-profile)
 
-Show your Spotify playing on your Github profile
+Show your Spotify playing on your GitHub profile
 
 
 ![](https://raw.githubusercontent.com/kittinan/spotify-github-profile/master/img/novatorem.svg)
@@ -193,16 +185,9 @@ Add dynamically generated GitHub Stat Trophies on your readme
 [![trophy](https://github-profile-trophy.vercel.app/?username=ryo-ma&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 ```
 
+###  [GitHub Readme Twitter](https://github.com/gazf/github-readme-twitter)
 
-
-
-###  [Github Readme Twitter](https://github.com/gazf/github-readme-twitter)
-
-Add Twitter to your github readme
-
-
-
-
+Add Twitter to your GitHub readme
 [![github-readme-twitter](https://github-readme-twitter.gazf.vercel.app/api?id=gazff)](https://github.com/gazf/github-readme-twitter)
 
 ```
@@ -220,18 +205,18 @@ Generate beautiful header images for your GitHub profile READMEs.
 
 ###  [Goodreads Readme](https://github.com/theFr1nge/goodreads-readme)
 
-This project provides a badge for sharing your current book in your github profile.
+This project provides a badge for sharing your current book in your GitHub profile.
 
 
 
 ###  [Readme Typing svg](https://github.com/DenverCoder1/readme-typing-svg)
 
-Dynamically generated, customizable SVG that gives the appearance of typing and deleting text. Typing SVGs can be used as a bio on your Github profile readme or repository.
+Dynamically generated, customizable SVG that gives the appearance of typing and deleting text. Typing SVGs can be used as a bio on your GitHub profile readme or repository.
 
 
-###  [Awesome Github Profile Readme Templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates)
+###  [Awesome GitHub Profile Readme Templates](https://github.com/durgeshsamariya/awesome-github-profile-readme-templates)
 
-This repository contains best profile readme's for your reference.
+This repository contains the best profile readme's for your reference.
 
 ###  [Profile Summary For Github](https://github.com/tipsy/profile-summary-for-github)
 
@@ -241,18 +226,13 @@ Tool for visualizing GitHub profiles
 
 ### [Github Profile Summary Cards](https://github.com/vn7n24fzkq/github-profile-summary-cards)
 
-A tool to generate your github summary card for profile README
+A tool to generate your GitHub summary card for profile README
 
+### [Generate Snake Game From GitHub Contribution Grid](https://github.com/marketplace/actions/generate-snake-game-from-github-contribution-grid)
 
-
-### [Generate Snake Game From Github Contribution Grid](https://github.com/marketplace/actions/generate-snake-game-from-github-contribution-grid)
-
-Generates a snake game from a github user contributions graph
-
-
+Generates a snake game from a GitHub user contributions graph
 
 ![](https://github.com/Platane/snk/raw/output/github-contribution-grid-snake.svg)
-
 
 
 ###  [Github Stats Transparent](https://github.com/rahul-jha98/github-stats-transparent)
@@ -262,8 +242,7 @@ Automatically generate summary GitHub statistics images for your profile using A
 
 ###  [Github Profile Name Writer](https://github.com/ironmaniiith/Github-profile-name-writer)
 
-Write your name using the github commits and make your profile awesome
-
+Write your name using the GitHub commits and make your profile awesome
 
 ###  [Github Profile Languages](https://github.com/IonicaBizau/github-profile-languages)
 
@@ -276,7 +255,7 @@ This GitHub Action creates a GitHub contribution calendar on a 3D profile image.
 
 ### [Github Profile Header Generator](https://github.com/leviarista/github-profile-header-generator)
 
-A header image generator for your Github profile Readme
+A header image generator for your GitHub profile Readme
 
 ### [metrics](https://github.com/lowlighter/metrics)
 
@@ -291,7 +270,7 @@ GitHub Action to download the devcard from https://daily.dev
 Pimp my README is an open source profile builder that you can use to add some cool components to your README profile - Made with <3 by webapp.io :)
 ###  [GitHub Contribution Chart Generator](https://github.com/sallar/github-contributions-chart)
 
-Generate an image of all your Github contributions
+Generate an image of all your GitHub contributions
 
 ### [Wrapped](https://github.com/neat-run/wrapped)
 
@@ -300,11 +279,9 @@ GitHub Wrapped, inspired by Spotify Wrapped
 ### [GitHub Spray](https://github.com/Annihil/github-spray)
 
 Draw on your GitHub contribution graph ░▒▓█
-
 ### [Github Trends](https://github.com/avgupta456/github-trends)
 
 Level up your GitHub profile readme with customizable cards including LOC statistics!
-
 ### [Github Readme Quotes](https://github.com/shravan20/github-readme-quotes)
 
 Dynamic quote generator for your GitHub readmes | Give a poetic touch to readmes
@@ -326,7 +303,6 @@ Add Your Recently Published Medium Articles to Your GitHub Readme
 ### [Github Widgetbox](https://github.com/Jurredr/github-widgetbox)
 
 Beautiful, dynamic widgets for GitHub Readme pages. (Statistics, Skills, etc.)
-
 ### [lastfm Recently Played Readme](https://github.com/JeffreyCA/lastfm-recently-played-readme)
 
 Display your recent Last.fm scrobbles on your GitHub profile README.
@@ -359,19 +335,16 @@ Some cool ideas for your readme profile, enjoy :) and You can access cool gifs t
 
 ###  [Capsule Render](https://github.com/kyechan99/capsule-render)
 
-Dynamic Coloful Image Render
-
-
-
-### [Github Readme npm Downloads](https://github.com/maddhruv/github-readme-npm-downloads)
+Dynamic Colorful Image Render
+### [GitHub Readme npm Downloads](https://github.com/maddhruv/github-readme-npm-downloads)
 
 Show npm packages downloads ⏬ in GitHub README
 
 
 
-###  [Github Contribution Stats](https://github.com/LordDashMe/github-contribution-stats)
+###  [GitHub Contribution Stats](https://github.com/LordDashMe/github-contribution-stats)
 
-Dynamically generated Github Contribution Stats. 📈 📆
+Dynamically generated GitHub Contribution Stats. 📈 📆
 
 
 
@@ -387,12 +360,12 @@ Dynamically generated GitHub repository star chart. 📈 ⭐️
 
 ### [Moon.svg](https://github.com/hmu332233/moon.svg)
 
-Add real-time moon on your github profile!
+Add real-time moon on your GitHub profile!
 Moon.svg shows the current moon phase in real time!
 
 ### [Stackoverflow Readme Profile](https://github.com/johannchopin/stackoverflow-readme-profile)
 
-Easily share your Stackoverflow's profile on your README
+Easily share your Stack overflow's profile on your README
 
 ![](https://raw.githubusercontent.com/johannchopin/stackoverflow-readme-profile/main/docs/profile/themes/dark.svg)
 
@@ -408,7 +381,7 @@ Automatically update your README.md with Chess.com games and stats - fully custo
 
 ###  [Terminal Gif Maker](https://www.terminalgif.com/)
 
-Terminal Gif Maker is a tool for creating code samples in the terminal interface. You can create gifs for your projects and you can show that in the README of your project. You can use the GIF in git providers like Github and Gitlab.
+Terminal Gif Maker is a tool for creating code samples in the terminal interface. You can create gifs for your projects and you can show that in the README of your project. You can use the GIF in git providers like GitHub and Gitlab.
 
 
 ### [Spotify Data Card](https://github.com/magic-ike/spotify-data-card)
@@ -442,7 +415,7 @@ Styled banners for your Readme made with html/css in SVG !!
 ###  [D-Day.widget](https://github.com/hmu332233/dday.svg)
 
 Add D-Day widget to anywhere,  
-such as your Github Profile, Notion, etc
+such as your GitHub Profile, Notion, etc
 
 
 ### [GitHub Readme YouTube Cards](https://github.com/DenverCoder1/github-readme-youtube-cards)
@@ -465,7 +438,7 @@ Awesome List of GIFs & avatars to use in GitHub markdown
 
 ###  [Skill Icons](https://github.com/tandpfun/skill-icons)
 
-Showcase your skills on your Github readme or resumé with ease ✨
+Showcase your skills on your GitHub readme or resumé with ease ✨
 
 
 ![](https://skillicons.dev/icons?i=all")
@@ -498,10 +471,7 @@ Showcase your skills on your Github readme or resumé with ease ✨
 
 ### [Profile Readme Generator](https://github.com/maurodesouza/profile-readme-generator)
 
-🎨 Beautify your github profile with this amazing tool, creating the readme your way in a simple and fast way 🚀 The best profile readme generator you will find ⚡ 
-
-
-
+🎨 Beautify your GitHub profile with this amazing tool, creating the readme your way in a simple and fast way 🚀 The best profile readme generator you will find ⚡ 
 ### [Profileme Dev](https://github.com/danielcranney/profileme-dev)
 
 Create an awesome GitHub profile in minutes 
@@ -520,11 +490,9 @@ Generate user-friendly, intuitive and dynamic markdown for your profile README, 
 ### [Github Profile Readme Maker](https://github.com/VishwaGauravIn/github-profile-readme-maker)
 
 Best Profile Generator, Create your perfect GitHub Profile ReadMe in the best possible way. Lots of features and tools included, all for free !
+### [Github Profile Readme Generator](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator)
 
-
-### [github Profile Readme Generator](https://github.com/rahulbanerjee26/githubProfileReadmeGenerator)
-
-Generate a cool README/About me page for your Github Profile
+Generate a cool README/About me page for your GitHub Profile
 
 
 
@@ -537,15 +505,14 @@ This tool contains mini GUI components that you can hook together to automatical
 
 ![](https://raw.githubusercontent.com/rishavanand/github-profilinator/master/src/images/demo.gif)
 
-### [Github Profile Readme Generator](https://arturssmirnovs.github.io/github-profile-readme-generator/)
-
-GitHub profile readme generator allows you to create nice and simple GitHub profile readme files that will be included in your profile previews.
+### [Github Profile Readme Generator]
+The GitHub profile readme generator allows you to create nice and simple GitHub profile readme files that will be included in your profile previews.
 
 ![](https://arturssmirnovs.github.io/github-profile-readme-generator/images/gif.gif?v=123)
 
 ### [Github Profile Readme Generator](https://rahuldkjain.github.io/gh-profile-readme-generator)
 
-Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.
+Generate GitHub profile README easily with the latest add-ons as visitors count, GitHub stats, etc using minimal UI.
 
 
 ![](https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/github-profile-readme-generator.gif)
