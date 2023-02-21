@@ -32,7 +32,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   #ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   disableSpecial1stPost: false
@@ -41,7 +41,7 @@ params:
   hidemeta: false
   hideSummary: false
 
-  UseHugoToc: true
+  UseHugoToc: false
   showtoc: true
   tocopen: false
 
@@ -85,6 +85,8 @@ params:
       url: "https://www.linkedin.com/company/lasheendev/"
     - name: twitter
       url: "https://twitter.com/lasheendev"
+    - name: RSS
+      url: "index.xml"
     
 
   # analytics:
@@ -101,7 +103,7 @@ params:
   #   hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/lasheendev/blog"
+    URL: "https://github.com/lasheendev/blog/blob/master/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -115,20 +117,24 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-# menu:
-#   main:
-#     - identifier: categories
-#       name: categories
-#       url: /categories/
-#       weight: 10
-#     - identifier: tags
-#       name: tags
-#       url: /tags/
-#       weight: 20
-#     - identifier: lasheen.dev
-#       name: lasheen.dev
-#       url: https://lasheen.dev
-#       weight: 30
+menu:
+  main:
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    # - identifier: tags
+    #   name: tags
+    #   url: /tags/
+    #   weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+    - identifier: lasheen.dev
+      name: lasheen.dev
+      url: https://lasheen.dev
+      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
@@ -139,3 +145,8 @@ params:
 #     # guessSyntax: true
 #     # lineNos: true
 #     # style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
