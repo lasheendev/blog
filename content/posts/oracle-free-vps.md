@@ -36,7 +36,7 @@ Click Change shape, then increase the OCPU count to 4, and the amount of memory 
 
 Under Networking, create or select a Virtual Cloud Network (VCN) with default settings. Ensure that the Assign a public IPv4 address option is selected.
 
-For the SSH option, you may create yourself using PuTTy or use the auto-generated one from Oracle, don't** forget to** save the SSH key** as you need it to remote to your server.
+For the SSH option, you may create yourself using PuTTy or use the auto-generated one from Oracle **don't forget to save the SSH key** as you need it to remote to your server.
 
 For the Boot Volume, you may input 200 GB as it is the highest possible you can use as an Always Free tier: 
 
@@ -72,7 +72,7 @@ stress-ng --cpu 4 --vm 4 --vm-bytes 24G --timeout 10s
 You now are the proud owner of your own VM. Just some notes to consider
 
 
-### Idle Compute Instances **Important**
+### Idle Compute Instances
 
 Idle Always Free compute instances may be reclaimed by Oracle. Oracle will deem virtual machine and bare metal compute instances as idle if, during a 7-day period, the following are true:
 
