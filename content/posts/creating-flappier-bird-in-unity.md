@@ -5,10 +5,12 @@ description: ""
 draft: false
 ---
 
-## **Creating 'Flappier Bird' in Unity**  
+# **Creating 'Flappier Bird' in Unity**  
 ![1_l8irNv-cl63myFBRL2TRCw](https://user-images.githubusercontent.com/26281629/220197299-0984c09a-fd44-4b5f-90a1-235d82986df3.jpeg)  
+## **Introduction**
 **'Flappy Bird'** was and probably still is one of the most popular games in the world, creating a replica of it is one of the most popular things beginner game developers do as a challenge on their own. I didn't do it when I started game development, so why not do it now?
 
+## **Creating the bird and the background**
 Let's start by drawing a little bird, and it turned out like this:    
 ![1_G147y2sJe5KoeytRqaYp6g](https://user-images.githubusercontent.com/26281629/220197421-e36a54a8-b0a1-4929-b107-d7e6e9128d73.png)  
 It surely looks dumb, but it's good enough to make the game, and adding up a simple background:    
@@ -20,8 +22,10 @@ Good enough! But, let's make it animated, because I have an idea for later:
 ![1_vM5WSFKvZpOJQ02MwnATzw](https://user-images.githubusercontent.com/26281629/220197669-3143290b-5360-430a-8375-fc125c44d386.gif)  
 **Cool !!!**
 
-Now let's head to Unity, I put everything in the scene, add a collider for the ground, make a script for the bird, **why isn't the script working? why isn't it working??? oh, that's why!!**
+## **Now let's head to Unity**
+I put everything in the scene, add a collider for the ground, make a script for the bird, **why isn't the script working? why isn't it working??? oh, that's why!!**
 
+## **Implementing the bird's movement**
 Let's add a Rigidbody, edit the script for the bird to advance forward (to the right), reset the velocity and jump with some force when the left mouse button is clicked:
 
 ```
@@ -53,6 +57,7 @@ public class BirdScript: MonoBehaviour
 }
 ```
 
+## **Adding the camera script**
 The bird flies, but, into infinity, let me try to attach the camera to it and see it fly, **OMG!! bad idea! bad idea!** back outside, ok, let's make the camera move with the player, smoothly that is, with a script, nothing else can save me now:
 
 ```
@@ -79,6 +84,7 @@ public class Camera: MonoBehaviour
 }
 ```
 
+### **Moving the background and the ground**
 Let's play the game, oh no, what is this?, everything disappears once I press **Play**, after checking the difference in the position of the camera: oh, that's why, it move on the Z-axis from -10 to 0 once I press Play, probably because of the script, let's add some offset to camera:
 
 ```
@@ -107,6 +113,7 @@ public class Camera: MonoBehaviour
 }
 ```
 
+### **Adding pipes**
 Let's press Play! Nice! It works now! Good enough!
 But man, the background and the ground, they aren't moving with the bird, they're not advancing with the bird, what can I do? Ok, I'll add the animated ground as a child to the camera, so it moves with the camera and animate because of the previously made animation, looks good enough! !now for the background! I can't just fix it to move with the camera, and I can't just instantiate it infinitely with the camera, instantiating and removing backgrounds doesn't seem like a very good option for Android games, it'll take so much resources, the game will probably run slower with this, and I need the game as optimized as possible for weaker devices, I know! I'll create 2 background game objects, and move them in front of the bird when it gets out of the camera's view, that way, I'll have only 2 game objects that are simple moving ahead of the bird to make it like they're infinitely spawning, so I'll create a parent for the 2 backgrounds and put the following script on it (which simply assigns the values for another script I'll put on each and every background tile):
 
@@ -150,6 +157,7 @@ public class Spauner : MonoBehaviour
 }
 ```
 
+### **Implementing pipes as tiles**
 Now I create a **Tile** script (which simply checks if the position of the current game object is less than the position of the bird by a certain value on the X-axis and moves ahead of the bird when greater than that distance):
 
 ```
@@ -186,12 +194,15 @@ And since the **Spawner** script which is the one on the parent assigns the valu
 
 **Now I have a game! Well, kinda.**
 
+### **Adding collision detection for the bird and pipes**
 There's nothing for the bird to do, it doesn't really die either, so no lose conditions, it'll just keep flying like this forever.
 Let's go draw the pipes I saw in **Flappy Bird! Ok!** It turned out good enough:
 
 ![1_Kri6JbXeD9EM9lPaNgh2Uw](https://user-images.githubusercontent.com/26281629/220200522-69f2740c-0243-4ac8-9bc0-81d02a0b3a62.png)
 
 A tall simple pipe drawing, now we import it into **Unity**, add them to the scene, and **BAM!!** We have pipes, oh it's a single pipe, that does nothing, it doesn't even affect the player, let's make it do so, we add 2 **2D Colliders**, one for each side of the script and adjust their values to match the borders of the pipes.
+
+### **Implementing the bird's death and lose conditions**
 Ok, now if we press **Play**, the bird does interact with it, but it doesn't die, how does the bird even die? Let's make it so the player can't control the bird anymore once it's dead by modifying the **BirdScript** script like this:
 
 ```
@@ -271,6 +282,7 @@ public class BirdScript : MonoBehaviour
 }
 ```
 
+## **Conclusion**
 Now the player dies once it touches any of the pipes, now let's do the same thing we did on the background tiles to the **pipes**, so making 3 pipe game objects, putting them all under one parent that has the script **'Spawner'**, and each pipe having the script **'Tile'**, and modify the **Tile** and **Spawner** scripts a little bit by adding the **'pipes'** variable in the Spawner script and the **'pipe'** variable in the **Tile** script:
 
 ```
@@ -355,7 +367,7 @@ And finally insert some good values for the **Spawner** script on the parent of 
 Ok! Now the game is **complete**!
 **YAY!**
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-**(Advanced)**
+## **(Advanced)**
 I don't feel satisfied with the bird just simply going up and down without any rotation, it looks so unlike the real Flappy Bird, Let's modify the **BirdScript** script to make it look where it's headed like this:
 
 ```
