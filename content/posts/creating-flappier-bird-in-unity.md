@@ -3,6 +3,7 @@ title: "Creating 'Flappier Bird' in Unity"
 date: 2023-07-11
 description: ""
 draft: false
+author: 'Mohamed Barghush'
 ---
 
 # **Creating 'Flappier Bird' in Unity**  
