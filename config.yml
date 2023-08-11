@@ -23,7 +23,7 @@ permalinks:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   
-  author: 'Youssef Lasheen'
+  author: 'Lasheen'
 
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   #DateFormat: "January 2, 2006"
