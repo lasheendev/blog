@@ -123,7 +123,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spauner : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
 	public Tile[] tiles;
 	public Vector3 position;
@@ -134,11 +134,11 @@ public class Spauner : MonoBehaviour
 	// Start is called before the first frame update
 	void Start()
 	{
-		tiles[0] .manager = this.GetComponent<spauner>();
+		tiles[0].manager = this.GetComponent<Spawner>();
 		tiles[0].bird = bird;
-		tiles[0] .distancecheck = distancecheck;
-		tiles[0] .transform.position = position;
-		tiles[0] enabled = true;
+		tiles[0].distancecheck = distancecheck;
+		tiles[0].transform.position = position;
+		tiles[0].enabled = true;
 		for (int i = 1; i < tiles.Length; i++)
 		{
 			tiles[i].manager = this.GetComponent<Spawner>();
